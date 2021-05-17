@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{booktabs} % Package 
+
+\title{Floats and Captions}
+\author{Deepak Thanvi}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+Figure=\ref{my_picture} shows a picture. 
+
+\begin{figure}[htbp!]
+
+	\begin{center}
+		
+		\includegraphics[width=.7\textwidth]{/home/deepak/Downloads/1615870730155.jpg}
+	
+	\end{center}
+	
+	\caption{A Picture}
+	\label{my_picture}
+
+\end{figure}
+
+
+\begin{table}
+
+	\begin{center}
+
+		\begin{tabular}{l|c|r}
+		\toprule
+		Name & Gender & Age\\
+		\midrule
+		Deepak & Male & 25\\
+		\bottomrule		
+		\end{tabular}			
+	\end{center}
+	\caption{A Table}
+	\label{tab:my_table}
+
+
+\end{table}
+
+
+
+\end{document}
