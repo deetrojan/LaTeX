@@ -1,4 +1,4 @@
-# LaTeX
+# LaTeX Tutorials
 LaTeX helps me documented !
 
 This repository is meant to provide basic LaTex tutorial programs.
